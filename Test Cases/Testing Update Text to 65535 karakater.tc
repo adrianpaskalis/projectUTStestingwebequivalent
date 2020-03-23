@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Testing Update Text to 65535 karakater</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a3c7a700-7a2c-4c42-8029-599983227624</testCaseGuid>
+</TestCaseEntity>

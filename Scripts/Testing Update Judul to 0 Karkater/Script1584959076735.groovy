@@ -14,4 +14,23 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://[::1]/CodeIgniter-3.1.11/index.php/news/edit/8')
+
+WebUI.click(findTestObject('Page_CodeIgniter Tutorial/input_Title_title'))
+
+WebUI.setText(findTestObject('Page_CodeIgniter Tutorial/input_Title_title'), '')
+
+WebUI.setText(findTestObject('Object Repository/Page_CodeIgniter Tutorial/textarea_Testing UTS Equivalent2'), 'Testing UTS Equivalent ')
+
+WebUI.click(findTestObject('Page_CodeIgniter Tutorial/input_Testing UTS Equivalent2_submit'))
+
+tujuan = WebUI.getUrl()
+
+WebUI.verifyMatch('tujuan', 'http://[::1]/CodeIgniter-3.1.11/index.php/news/edit/8', false)
+
+WebUI.closeBrowser()
 
