@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Normal judul testing</description>
+   <name>Testing Text Lebih dari 65555</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9707e33b-8710-48df-b958-ea9cff6d3871</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Normal judul testing</description>
+   <name>Testing Text Kosong</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ff25c0ac-8cf4-4522-8c20-4f2d1bbd4687</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Normal judul testing</description>
+   <name>Testing Judul Maks 128</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>696eb832-1f6b-4c39-a8a9-0d619854cc2b</testCaseGuid>
+</TestCaseEntity>
